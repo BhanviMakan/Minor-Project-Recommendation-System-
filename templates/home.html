@@ -1,0 +1,68 @@
+
+<html>
+<head>
+{% load static %}
+<link rel="stylesheet" href="{% static 'CSS/mini-default.css' %}">
+<link rel="stylesheet" href="{% static 'CSS/custom.css' %}">
+<link rel="stylesheet" href="{% static 'divs.css' %}">
+</head>      
+
+<body>
+<img src="{% static 'know.jpg' %}" alt ="about" style=
+"position: fixed; left:0;bottom:0;width:50%;
+height:100%;"/>
+
+<div class="headings">
+<h2 class="glow">Help For movies:</h2>
+</div>
+<div class="para">
+	<p><b>Hi! there, Welcome to help for movie section.
+		Here you have to enter your last watched movie 
+		and our system will give you list of movies 
+		similar to the one you have watched earlier.To 
+	   use this service <a href="{% url 'page3'%}">click Here.</a></b></p>
+		</div>
+
+		
+<div class="headings">
+	<h2 class="glow">Help For Songs:</h2>
+	</div>
+	<div class="para">
+		<p><b>Hi! there, Welcome to help for songs section.
+			Here you have to enter your last listened song 
+			and our system will give you list of songs
+			similar to the one you have watched earlier.To 
+		   use this service <a href="{% url 'page4' %}">click Here.</a></b></p>
+			</div>
+
+			
+<div class="headings">
+	<h2 class="glow">Help For Places:</h2>
+	</div>
+	<div class="para">
+		<p><b>Hi! there, Welcome to help for Places section.
+			Here you have to enter your last visited place 
+			and our system will give you list of Places
+			similar to the one you have visited earlier.To 
+		   use this service <a href="{% static 'page5' %}">click Here.</a></b></p>
+			</div>
+
+			
+<div class="headings">
+	<h2 class="glow">Help For Food:</h2>
+	</div>
+	<div class="para">
+		<p><b>Hi! there, Welcome to help for Food section.
+			Here you have to enter your last eaten food item 
+			and our system will give you list of food items
+			similar to the one you have eaten earlier.To 
+		   use this service <a href="{% url 'page6' %}">click Here.</a></b></p>
+			</div>
+
+</body>
+</html>
+
+
+
+
+  

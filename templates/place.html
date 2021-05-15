@@ -1,0 +1,51 @@
+<html>
+<head>
+{% load static %}
+<link rel="stylesheet" href="{% static 'CSS/mini-default.css' %}">
+<link rel="stylesheet" href="{% static 'CSS/custom.css' %}">
+<link rel="stylesheet" href="{% static 'divs.css' %}">
+</head>      
+
+<body>
+<img src="{% static 'places.jpg' %}" alt ="about" style=
+"position: fixed; left:0;bottom:0;width:50%;
+height:100%;"/>
+
+<div class="headings">
+<h2 class="glow">Welcome to Help For Places</h2>
+</div>
+
+<div class="ip">
+<form action="/jga/" method="post">
+    {% csrf_token %}
+    <label for="fname"><b>Enter last Visited Place</b></label><br>
+    <input type="text" id="fname" name="fname2" style="width:200px;height:50px;"><br><br>
+    {{data3}} 
+    <br><br>    
+<input type="submit" value="Submit" style="margin-top:-5px;width: 100px;height: 30px;">
+    
+</form>
+  </div>
+
+<h2 style="color:  #ff3300;
+text-shadow: #ff5c33;
+font-size: 30px;
+margin-left: 750px;
+margin-top: 10px;"class="glow">Leave a suggestion:-</h2>
+
+<div class="sugg">
+<form>
+    <label for="fname"><b>Name</b></label><br>
+    <input type="text" id="fname" name="fname" style="width:200px;height:50px;"><br><br>
+    <label for="fname"><b>E-mail</b></label><br>
+    <input type="text" id="fname" name="fname" style="width:200px;height:50px;"><br><br>
+    <label for="fname"><b>Your suggestions</b></label><br>
+    <input type="text" id="fname" name="fname" style="width:200px;height:50px;"><br><br>
+    <input type="submit" value="Submit" style="width: 100px;height: 30px;">
+    </form>
+</div>
+
+
+
+</body>
+</html>
