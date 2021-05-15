@@ -1,0 +1,11 @@
+#sec1 {
+    height: 100%;
+}
+#sec2 {
+    height:100%;
+}
+.hover:hover{
+  text-shadow: purple;
+  font-size: 20px;   
+    
+}

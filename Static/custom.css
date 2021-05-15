@@ -1,0 +1,289 @@
+  img
+  {
+    border-radius: 0.375em;
+    border-top-left-radius: 0.375em;
+    border-top-right-radius: 0.375em;
+    border-bottom-right-radius: 0.375em;
+    border-bottom-left-radius: 0.375em;
+    display: block;
+  }
+
+  .thumb
+  {
+    padding: auto;
+    text-align: inherit;
+    background: #E7F1FD;
+    border-radius: 0.375em;
+    border-top-left-radius: 0.375em;
+    border-top-right-radius: 0.375em;
+    border-bottom-right-radius: 0.375em;
+    border-bottom-left-radius: 0.375em;
+    display: block;
+  }
+
+    .container-fluid, .container
+    {
+      margin: 50px auto;
+      height: 200px auto;
+    }
+
+    a.image {
+      overflow: hidden; }
+
+      a.image img {
+        -moz-transition: -moz-transform 0.2s ease;
+        -webkit-transition: -webkit-transform 0.2s ease;
+        -ms-transition: -ms-transform 0.2s ease;
+        transition: transform 0.2s ease; }
+      a.image:hover img {
+        -moz-transform: scale(1.075);
+        -webkit-transform: scale(1.075);
+        -ms-transform: scale(1.075);
+        transform: scale(1.075); }
+
+    .al
+    {
+      border-bottom: solid 3px #f56a6a;
+      display: inline-block;
+      margin: 0em;
+      padding: 0 0.75em 0.5em 0;
+      padding-left: 35px;
+      font-family: "Lucida Console", Courier, monospace;
+    }
+
+
+  .buttonbig{
+        background-color: transparent;
+        border-radius: 0.375em;
+        border: 0;
+        box-shadow: inset 0 0 0 2px #f56a6a;
+        color: #f56a6a !important;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Roboto Slab", serif;
+        font-size: 0.7em;
+        font-weight: 700;
+        height: 3.5em;
+        letter-spacing: 0.075em;
+        line-height: 3.5em;
+        padding: 0 2.25em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+
+      /* Styling taken from- https://codepen.io/dannievinther/pen/NvZjvz */
+
+      @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
+
+      .page {
+        width: 100%;
+        height: auto; 
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 600;
+        letter-spacing: .03em;
+        color: #212121;
+        background: #ffffff;
+      }
+
+<!--
+      header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background: #212121;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+      }
+-->
+
+      main {
+        padding: 40px 20px 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+
+      #nav-container {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+      }
+      #nav-container .bg {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: calc(100% - 0px);
+        visibility: hidden; 
+        opacity: 0;
+        transition: .3s;
+        background: #;
+      }
+      #nav-container:focus-within .bg {
+        visibility: visible;
+        opacity: .6;
+      }
+      #nav-container * {
+        visibility: visible;
+      }
+
+      .button {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+        -webkit-appearance: none;
+        border: 0;
+        background: transparent;
+        border-radius: 0;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        pointer-events: auto;
+        margin-left: 10px;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+      }
+      .icon-bar {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #111;
+        transition: .3s;
+      }
+      .icon-bar + .icon-bar {
+        margin-top: 5px;
+      }
+
+      #nav-container:focus-within .button {
+        pointer-events: none;
+      }
+
+
+<!--
+      #nav-container:focus-within .icon-bar:nth-of-type(1) {
+        transform: translate3d(0,8px,0) rotate(45deg);
+      }
+      #nav-container:focus-within .icon-bar:nth-of-type(2) {
+        opacity: 0;
+      }
+      #nav-container:focus-within .icon-bar:nth-of-type(3) {
+        transform: translate3d(0,-8px,0) rotate(-45deg);
+      }
+-->
+      
+      #nav-content {
+        margin-top: 70px;
+        padding: 10px;
+        width: 90%;
+        max-width: 350px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: calc(100% - 70px); 
+        background: #fff;
+        pointer-events: auto;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        transform: translateX(-100%);
+        transition: transform .3s;
+        will-change: transform;
+        contain: paint;
+        overflow: auto;
+
+      }
+
+      #nav-content ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #nav-content li {
+      margin:0px;
+      height:40px;
+      }      
+      
+      
+      #nav-content li a {
+        margin:0px;
+        padding: 2px 5px;
+        display: block;
+        text-transform: uppercase;
+        transition: color .1s;
+        border:1px solid red;
+        border-radius:8px;
+      }
+
+      #nav-content li a:hover {
+        color: #BF7497;
+        background:#ddd;
+        border:3px solid red;
+      }
+
+      #nav-content li:not(.small) + .small {
+        margin-top: auto; 
+      }
+
+      .small {
+        display: flex;
+        align-self: center;
+      }
+
+      .small a {
+        font-size: 12px;
+        font-weight: 400;
+        color: #888;
+      }
+      .small a + a {
+        margin-left: 15px;
+      }
+
+      #nav-container:focus-within #nav-content {
+        transform: none;
+      }
+
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+
+        .lin:visited {
+        color: #000000;
+      }
+
+      .lin:hover, .lin:focus {
+        text-decoration: underline;
+        color: #ff0000;
+      }
+
+
+@media only screen and (min-width:1500px) {
+  main {
+    width: calc(100% - 320px);
+    float:right;
+    padding: 0px 20px 0;    
+  }
+
+ #nav-content  {
+ transform:none;
+  margin-top: 10px; 
+}  
+
+ #nav-container .button{
+ opacity:0;
+ }
+ 
+}      
+

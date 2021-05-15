@@ -1,0 +1,88 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    scroll-behavior: auto;
+    }
+
+#myvedio{
+    width:100%;
+}
+ .content {
+     align:center;
+     position:fixed;
+     top: 0;
+     width:100%;
+     padding: 20px;
+ }
+ .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column1 {
+    float: left;
+    width: 25%;
+    padding:10px;
+    
+  }
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  .glow {
+    font-size: 80px;
+    color: #fff;
+   
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+   .headings{
+    color:  #ff3300;
+    text-shadow: #ff5c33;
+    font-size: 50px;
+    margin-left: 750px;
+    margin-top: 10px;
+   }
+   .para {
+       color:#1a1aff;
+       font-size:20px;
+       margin-left: 750px;
+       margin-top:-10px;
+   }
+   .ip{
+    color:#1a1aff;
+    font-size:30px;
+    margin-left: 1000px;
+    margin-top:-10px;
+   }
+   .sugg{
+         color: #1a1aff;
+        font-size: 30px;
+        margin-left: 750px;
+        margin-top: 10px;
+       
+           
+   }
