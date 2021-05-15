@@ -1,0 +1,62 @@
+index,title,Region,Type,airport_dist(km),railway_dist(km),Elevation(m),rating
+0,Kufri,North East,Hill Station,20,100,2210,7
+1,Wilson Hills,West,Hill Station,122,60,750,8
+2,Paithalmala,South,Hill Station,159,39,1372,9
+3,Ponmudi,South,Hill Station,51,33,1100,9
+4,Ranipuram,South,Hill Station,125,55,1022,9
+5,Manali,North,Hill Station,50,250,2050,9.4
+6,Gulmarg,North,Hill Station,56,290,2650,9
+7,Dharamshala,North East,Hill Station,15,85,1457,9.2
+8,Lansdowne,North East,Hill Station,152,41,1706,8
+9,Auli,North East,Hill Station,279,273,2500,9.4
+10,Darjeeling,North East,Hill Station,96,62,2042,9
+11,Jawaharlal Nehru Biological Park,East,Zoological Park,122,12,210,7.2
+12,Tata Steel Zoological Park,East,Zoological Park,2.9,6.9,210,8.6
+13,Nandankanan Zoological Park,East,Zoological Park,17.5,17,58,8.8
+14,Padmaja Naidu Himalayan Zoological Park,East,Zoological Park,81.9,2.8,2042.16,8.8
+15,National zooligical Park,North,Zoological Park,24,7,216,8.2
+16,Nehru Zoological Park,South West,Zoological Park,16.9,6.9,505,8.4
+17,Mysore Zoo,South West,Zoological Park,170,5,763,9
+18,Arignar Anna Zoological Park,South East,Zoological Park,15,6,50,8.2
+19,Gopalpur Zoo,North,Zoological Park,37,115,733,7.6
+20,Gulabh Bagh and Zoo,North West,Zoological Park,22,2,598,8.2
+21,Chattbir Zoo,North West,Zoological Park,12,315,2134,8.6
+22,Pt. G.B Pant High Altitude Zoo,North,Zoological Park,68.6,34.7,2100,8.6
+23,Alipore Zoo,North East,Zoological Park,22,7,14,7.8
+24,Indira Gandhi Zoological Park,South,Zoological Park,7,4,45,8.2
+25,Agonda beach,West,Beach,70,38,2,9
+26,Palolem Beach,East,Beach,67,1.78,3,9
+27,Radhanagar Beach,South East,Beach,63,9,4,9.6
+28,Cavelossim beach,West,Beach,33,15,2,9
+29,Puri Beach,East,Beach,60,3,5,8.8
+30,Candolim Beach,West,Beach,46,21,5,8
+31,Dhanushkodi Beach,West,Beach,142,23.4,5,9
+32,Colva Beach,West,Beach,24,8,5,8
+33,Utorda Beach,West,Beach,18,12,5,9
+34,Marari Beach,West,Beach,60,16,5,8.8
+35,Elephanta Beach,East,Beach,63,15,5,9.2
+36,The Konark Sun Temple,East,Temple,64,35.3,2,9.2
+37,Somnath Temple,West,Temple,125,1.5,2,9.4
+38,Kedarnath Temple,North,Temple,228,110,3583,9.2
+39,Ramnathaswamy Temple,South,Temple,163,1.3,10,9
+40,Vaishno Devi Mandir,North,Temple,50,17,1585,9
+41,Siddhivinayak Temple,West,Temple,11.9,2,14,9.4
+42,Badrinath Temple,North,Temple,311,318,3133,9.2
+43,Gangotri Temple,North,Temple,260,250,3100,9.4
+44,Kashi Vishwanath Temple,North East,Temple,25,6,81,9.2
+45,Lord Jagannath Temple,South East,Temple,60,28,1,9.2
+46,Yamunotri Temple,North,Temple,210,175,3291,9
+47,Meenakshi Temple,South,Temple,17,3,101,9.4
+48,Amarnath Cave Temple,North,Temple,95,315,3888,8.8
+49,Tirupati Balaji,South East,Temple,15,26,,
+50,Golden Temple,North,Temple,13,2,,
+51,Kanchipuram Temples,South,Temple,75,1,,
+52,Khajuraho Temple,North,Temple,2,63,,
+53,Akshardham Temple,North,Temple,18,7,,
+54,Ranakpur Temple,North West,Temple,96,27,,
+55,Dwarkadhish Temple,West,Temple,45,1,,
+56,Laxminarayan Temple,North,Temple,13,16,,
+57,Iskcon Temple,North East,Temple,20,12,,
+58,Sree Padmanabhaswamy Temple,South,Temple,7,1,,
+59,Gomateshwara Temple,South West,Temple,66,18,,
+60,Virupaksha Temple,South West,Temple,350,13,,
